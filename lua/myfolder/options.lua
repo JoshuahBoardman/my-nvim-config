@@ -1,6 +1,7 @@
 local options = {
     nu = true,
     relativenumber = true,
+    scrolloff = 9999,
 
     cursorline = true,
     tabstop = 4,

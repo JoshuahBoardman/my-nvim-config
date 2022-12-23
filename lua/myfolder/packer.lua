@@ -44,6 +44,8 @@ return require('packer').startup(function(use)
         requires = { 'kyazdani42/nvim-web-devicons', opt = true }
     }
 
+    use 'ThePrimeagen/vim-be-good'
+
     -- Themes and Styles --
     use 'folke/tokyonight.nvim'
     use { "catppuccin/nvim", as = "catppuccin" }
